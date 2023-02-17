@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  factorial:
+    build: .
+    restart: unless-stopped
+    ports:
+      - 8080:80  # Example that port accesible on the outside can be mapped to a different one on the inside.
+    # volumes:
+    #   - ./permanent_storage:/app/permanent_storage
