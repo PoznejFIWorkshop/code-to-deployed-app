@@ -2,6 +2,7 @@ version: '3'
 
 services:
   factorial:
+    image: poznejfiworkshop/factorial:latest
     build: .
     restart: unless-stopped
     ports:
