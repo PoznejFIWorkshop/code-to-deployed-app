@@ -1,0 +1,6 @@
+__pycache__/
+.git/
+.github/
+.pytest_cache/
+.gitignore
+notes-secret.md
