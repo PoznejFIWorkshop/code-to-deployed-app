@@ -32,6 +32,10 @@ jobs:
     # https://github.com/marketplace/actions/build-and-push-docker-images
     # We can skip some of the steps.
     runs-on: ubuntu-latest
+    if:
+      contains('refs/heads/main
+                refs/heads/demo
+                refs/heads/demo2', github.ref)
     steps:
       # - name: Set up QEMU
       #   uses: docker/setup-qemu-action@v2
