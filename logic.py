@@ -4,14 +4,10 @@
 
 def factorial(n: int) -> int:
     assert n >= 0, "This factorial function only works for n >= 0"
-
-    if n in [0, 1]:
-        return 1
-    else:
-        answer = 1
-        for i in range(2, n+1):
-            answer = i * answer
-        return answer
+    answer = 1
+    for i in range(2, n+1):
+        answer *= i
+    return answer
 
 
 if __name__ == "__main__":
