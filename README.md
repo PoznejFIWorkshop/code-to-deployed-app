@@ -34,11 +34,11 @@ Výchozí stav: [logika](https://github.com/PoznejFIWorkshop/code-to-deployed-ap
 
 - Pytest
     - instalace [Pytest](https://pypi.org/project/pytest/)
-        - `python3 -m pip install pytest`
+        - `python -m pip install pytest`
         - přidat řádek `pytest` do `requirements.txt`
-            - `requirements.txt` lze nainstalovat pomocí `python3 -m pip install -r requirements.txt`
+            - `requirements.txt` lze nainstalovat pomocí `python -m pip install -r requirements.txt`
     - každý pár účastníků napíše nějaké testy používající `assert`
-    - testy lze spustit pomocí: `pytest .`
+    - testy lze spustit pomocí: `python -m pytest .`
     - v GitHub Desktop: add changes, commit, push
 
 - vysvětlení Pull Requestů, [založení jednoho](https://github.com/PoznejFIWorkshop/code-to-deployed-app/pulls)
